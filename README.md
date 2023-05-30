@@ -21,5 +21,36 @@ Neste estudo de caso, vamos seguir os seguintes passos:
 9. **Avaliação contínua e atualização do modelo:** É importante realizar avaliações contínuas do modelo à
 
  medida que novos dados se tornam disponíveis. Periodicamente, podemos reavaliar o desempenho do modelo e atualizá-lo com novos dados, se necessário. Isso ajuda a garantir que o modelo permaneça preciso e relevante ao longo do tempo.
+ 
+ **Tutorial: Previ-Cana - Previsão de Safra**
+
+Neste tutorial, vamos explorar como usar a aplicação Previ-Cana, que realiza a previsão de safra com base em dados de temperatura, umidade e precipitação. Abaixo, vamos detalhar o passo a passo de utilização da aplicação, além de fornecer informações sobre as tecnologias utilizadas.
+
+**Tecnologias utilizadas:**
+
+Flask: Framework web em Python para criação de aplicações web.
+Pandas: Biblioteca em Python para manipulação e análise de dados.
+scikit-learn: Biblioteca em Python para aprendizado de máquina e mineração de dados.
+Passo 1: Acessando a aplicação
+
+Acesse o endereço: https://dymesbruno-cd.github.io/previ-cana/
+Passo 2: Preenchendo o formulário
+
+No formulário exibido, preencha os campos solicitados:
+Temperatura: Informe a temperatura atual em graus Celsius.
+Umidade: Informe a umidade atual em percentual.
+Precipitação: Informe a quantidade de precipitação atual em milímetros.
+Passo 3: Obtendo a previsão
+
+Clique no botão "Prever Safra".
+Aguarde enquanto a aplicação realiza a previsão com base nos dados fornecidos.
+A previsão será exibida na tela, indicando a estimativa de safra em toneladas.
+Observações:
+
+A aplicação utiliza um modelo de regressão Aleatória (Random Forest) treinado com dados históricos de safra.
+Os dados históricos são carregados a partir do arquivo "dados_safra.csv" que contém valores fictícios para temperatura, umidade, precipitação e safra.
+O modelo de regressão é treinado com base nessas informações históricas e utilizado para fazer a previsão da safra com os dados fornecidos no formulário.
+Com este tutorial, você está pronto para utilizar a aplicação Previ-Cana e realizar previsões de safra com base nos dados de temperatura, umidade e precipitação. A aplicação é uma demonstração simples de como a aprendizagem de máquina pode ser aplicada para prever resultados em um contexto específico.
+
 
 
