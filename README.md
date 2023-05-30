@@ -34,25 +34,25 @@ Pandas: Biblioteca em Python para manipulação e análise de dados.
 
 scikit-learn: Biblioteca em Python para aprendizado de máquina e mineração de dados.
 
-Passo 1: Acessando a aplicação
+**Passo 1: Acessando a aplicação**
 
-Acesse o endereço: https://dymesbruno-cd.github.io/previ-cana/
+**Acesse o endereço: https://dymesbruno-cd.github.io/previ-cana/**
 
-Passo 2: Preenchendo o formulário
+**Passo 2: Preenchendo o formulário**
 
 No formulário exibido, preencha os campos solicitados:
 Temperatura: Informe a temperatura atual em graus Celsius.
 Umidade: Informe a umidade atual em percentual.
 Precipitação: Informe a quantidade de precipitação atual em milímetros.
 
-Passo 3: Obtendo a previsão
+**Passo 3: Obtendo a previsão**
 
-Clique no botão "Prever Safra".
+**Clique no botão "Prever Safra".**
 
 Aguarde enquanto a aplicação realiza a previsão com base nos dados fornecidos.
 A previsão será exibida na tela, indicando a estimativa de safra em toneladas.
 
-Observações:
+**Observações:**
 
 A aplicação utiliza um modelo de regressão Aleatória (Random Forest) treinado com dados históricos de safra.
 Os dados históricos são carregados a partir do arquivo "dados_safra.csv" que contém valores fictícios para temperatura, umidade, precipitação e safra.
