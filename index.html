@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Previsão de Safra</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Previsão de Safra</h1>
+  
+  <div class="input-container">
+    <label for="temperatura">Temperatura:</label>
+    <input type="number" id="temperatura" step="0.01" required>
+  </div>
+  
+  <div class="input-container">
+    <label for="umidade">Umidade:</label>
+    <input type="number" id="umidade" step="0.01" required>
+  </div>
+  
+  <div class="input-container">
+    <label for="precipitacao">Precipitação:</label>
+    <input type="number" id="precipitacao" step="0.01" required>
+  </div>
+  
+  <button onclick="fazerPrevisao()">Fazer Previsão</button>
+  
+  <div id="resultado"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
